@@ -14,17 +14,35 @@ The final analysis was presented through an interactive Power BI dashboard desig
 
 ## The Analytical Approach
 
-The project follows a workflow from data preparation to decision-making:
-
-**Football Manager data → Excel analytical model → Power BI-ready dataset → Power BI dashboard → Financial & strategic review**
-
 The analytical model was developed in Excel and includes position-specific attribute weighting, tactical-fit calculations, recruitment requirements, player value evaluation, squad selection, and financial considerations.
 
-A separate cleaned dataset was prepared specifically for Power BI to ensure that the dashboard could use structured and consistent data.
+File: Deportivo_Alaves_PowerBI_Ready.xlsx
+
+PBI_Matches
+
+<img width="1707" height="632" alt="Image" src="https://github.com/user-attachments/assets/e560db97-c90d-42f4-95d2-1232672baa42" />
+
+PBI_Opponent_Form
+
+<img width="495" height="410" alt="Image" src="https://github.com/user-attachments/assets/61c632a9-6150-44f2-bbce-b4f8f7de9e16" />
+
+PBI_Players
+
+<img width="1832" height="581" alt="Image" src="https://github.com/user-attachments/assets/e7233184-ed56-46fe-83ec-3b96c4b2d4ee" />
+
+PBI_Suggested_XI
+
+<img width="1413" height="252" alt="Image" src="https://github.com/user-attachments/assets/328c2499-d156-4cfe-8aec-80811279cc20" />
+
+This separate cleaned dataset was prepared specifically for Power BI to ensure that the dashboard could use structured and consistent data.
 
 ## Recruitment Strategy
 
 Recruitment decisions were evaluated using several factors rather than player quality alone.
+
+PBI_Recruitment
+
+<img width="910" height="78" alt="Image" src="https://github.com/user-attachments/assets/6ca6de5d-1921-40bb-af63-957a02d74a2c" />
 
 The analysis considered:
 
@@ -50,6 +68,10 @@ This framework was designed to answer a financial-analysis question:
 
 The financial analysis evaluated the relationship between recruitment decisions and the club's available resources.
 
+PBI_Financials
+
+<img width="1798" height="39" alt="Image" src="https://github.com/user-attachments/assets/f7d4a142-5b59-4311-b5f9-9596ba8c0407" />
+
 | Financial Metric | Result |
 |---|---:|
 | Transfer Budget | 14.5M |
@@ -73,11 +95,13 @@ The tactical analysis evaluated players according to the requirements of their p
 
 Early match analysis identified several recurring weaknesses, including poor use of width, vulnerability in aerial situations, breakdowns in the final third, and inefficient goalkeeper distribution.
 
+PBI_Opponents
+
+<img width="1383" height="268" alt="Image" src="https://github.com/user-attachments/assets/6982ced7-eb83-465c-8033-e5f2e613b8b7" />
+<img width="1630" height="268" alt="Image" src="https://github.com/user-attachments/assets/bf0be163-7f3d-4101-83bb-46c42c40e3ee" />
+<img width="657" height="272" alt="Image" src="https://github.com/user-attachments/assets/16c1e8d0-23a3-450a-b46e-490c1b1964e5" />
+
 These observations were incorporated into the recruitment and tactical evaluation process rather than being treated as isolated match results.
-
-The project therefore connects:
-
-**Match observations → Tactical weaknesses → Squad requirements → Recruitment decisions**
 
 ## Power BI Dashboard
 
@@ -128,17 +152,17 @@ The main analytical themes were:
 
 ## Tools & Technologies
 
-**Excel** — data preparation, analytical modeling, weighted scoring, recruitment analysis
+**Excel** - data preparation, analytical modeling, weighted scoring, recruitment analysis
 
-**Power Query** — data transformation and preparation
+**Power Query** - data transformation and preparation
 
-**Power BI** — interactive dashboards and data visualization
+**Power BI** - interactive dashboards and data visualization
 
-**DAX** — KPI, performance, and financial calculations
+**DAX** - KPI, performance, and financial calculations
 
-**OpenAI API** — AI-assisted analytical narrative and interpretation
+**OpenAI API** - AI-assisted analytical narrative and interpretation
 
-**GitHub** — project documentation, version control, and portfolio presentation
+**GitHub** - project documentation, version control, and portfolio presentation
 
 ## Limitations
 
@@ -159,9 +183,8 @@ Future versions could extend the model to multiple seasons, incorporate transfer
 ```text
 deportivo-alaves-financial-analytics/
 │
-├── analysis/
-├── data/
-├── docs/
+├── processed/
+├── raw/
 ├── powerbi/
 ├── screenshots/
 └── README.md
