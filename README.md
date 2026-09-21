@@ -107,13 +107,12 @@ These observations were incorporated into the recruitment and tactical evaluatio
 
 The final Power BI report transforms the underlying analysis into an interactive decision-support dashboard.
 
-The report evaluates the season through five perspectives:
+The report evaluates the season through four perspectives:
 
 - Executive performance
 - Squad and tactical performance
 - Recruitment and financial analysis
 - Match and opponent analysis
-- Final review and investment implications
 
 Dashboard screenshots are provided in the repository, while the Power BI file contains the interactive report.
 
